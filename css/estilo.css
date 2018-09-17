@@ -69,6 +69,34 @@ header h1{
   padding: 5px 10px 5px 25px;
 }
 
+#itens{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produto{
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 90%;
+  margin: 20px 0;
+}
+
+.produto p{
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.produto img{
+  width: 60vw;
+  height: 60vw;
+}
+
 @media screen and (min-width: 470px){
   header>div{
     display: none;
