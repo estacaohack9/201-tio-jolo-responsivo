@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 body{
+  max-width: 1200px;
+  font-family: 'Indie Flower', 'cursive';
   margin: 0;
   background: url('../imagens/bg.jpg');
   background-repeat: cover;
@@ -9,6 +11,11 @@ body{
 
 #navegacao{
   display: none;
+}
+
+#navegacao h2{
+  display: none;
+  margin: 0;
 }
 
 header{
@@ -26,7 +33,6 @@ header>div{
 }
 
 header h1{
-  font-family: 'Indie Flower', 'cursive';
   font-size: 18pt;
   margin: 0;
   font-weight: bolder;
@@ -50,7 +56,6 @@ header h1{
 }
 
 #navegacao nav a{
-  font-family: 'Indie Flower', 'cursive';
   font-weight: bold;
   color: black;
   text-decoration: none;
@@ -97,6 +102,54 @@ header h1{
   }
 }
 
+@media screen and (min-width: 1111px){
+  body{
+    margin: 0 auto;
+  }
+
+  header h1{
+    font-size: 36pt;
+    padding-top: 5vh;
+  }
+
+  #navegacao{
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+  }
+
+  #navegacao nav{
+    justify-content: space-between;
+  }
+
+  #navegacao>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .search.icon{
+    display: none;
+  }
+
+  #navegacao h2{
+    display: block;
+  }
+
+  header{
+    height: 10vh;
+  }
+
+  #navegacao nav a{
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+  #navegacao nav a:hover{
+    border: 2px solid black;
+    font-size: 36pt;
+  }
+}
 
 /* Ícone de Lupa */
 .search.icon {
