@@ -1,0 +1,58 @@
+@media screen and (min-width: 1111px){
+  body{
+    margin: 0 auto;
+  }
+
+  header h1{
+    font-size: 36pt;
+    padding-top: 5vh;
+  }
+
+  #navegacao{
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+  }
+
+  #navegacao nav{
+    justify-content: space-between;
+  }
+
+  #navegacao>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .search.icon{
+    display: none;
+  }
+
+  #navegacao h2{
+    display: block;
+  }
+
+  header{
+    height: 10vh;
+  }
+
+  #navegacao nav a{
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+  #navegacao nav a:hover{
+    border: 2px solid black;
+    font-size: 36pt;
+  }
+
+  #itens{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .produto{
+    margin: 20px;
+  }
+}

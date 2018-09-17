@@ -1,0 +1,13 @@
+@media screen and (min-width: 800px){
+  #navegacao nav{
+    width: 60%;
+  }
+
+  #navegacao input{
+    display: inline-block;
+  }
+
+  #navegacao>div{
+    width: 28%;
+  }
+}
