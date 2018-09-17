@@ -84,6 +84,7 @@ header h1{
   align-items: center;
   border: 1px solid black;
   width: 90%;
+  max-width: 350px;
   margin: 20px 0;
 }
 
@@ -95,6 +96,8 @@ header h1{
 .produto img{
   width: 60vw;
   height: 60vw;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 @media screen and (min-width: 470px){
@@ -176,6 +179,16 @@ header h1{
   #navegacao nav a:hover{
     border: 2px solid black;
     font-size: 36pt;
+  }
+
+  #itens{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .produto{
+    margin: 20px;
   }
 }
 
