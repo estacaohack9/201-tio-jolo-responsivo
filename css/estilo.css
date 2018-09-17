@@ -58,6 +58,12 @@ header h1{
   padding: 0 2px;
 }
 
+#navegacao input{
+  font-family: 'Indie Flower', 'cursive';
+  border: 2px solid black;
+  padding: 5px 10px 5px 25px;
+}
+
 @media screen and (min-width: 470px){
   header>div{
     display: none;
@@ -77,6 +83,20 @@ header h1{
   }
 }
 
+@media screen and (min-width: 800px){
+  #navegacao nav{
+    width: 60%;
+  }
+
+  #navegacao input{
+    display: inline-block;
+  }
+
+  #navegacao>div{
+    width: 28%;
+  }
+}
+
 
 /* Ícone de Lupa */
 .search.icon {
@@ -86,7 +106,7 @@ header h1{
   margin-left: 3px;
   width: 12px;
   height: 12px;
-  border: solid 1px currentColor;
+  border: solid 2px currentColor;
   border-radius: 100%;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -98,7 +118,7 @@ header h1{
   top: 12px;
   left: 5px;
   height: 6px;
-  width: 1px;
+  width: 2px;
   background-color: currentColor;
 }
 
