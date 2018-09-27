@@ -15,4 +15,20 @@
   #navegacao input{
     display: none;
   }
+
+  #navegacao>div{
+    display: inline-block;
+  }
+
+  #navegacao nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 13pt;
+  width: 85%;
+  }
+
+  #navegacao nav a{
+    border: 2px solid black;
+  }
 }
